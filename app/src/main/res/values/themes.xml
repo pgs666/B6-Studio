@@ -1,0 +1,20 @@
+<resources>
+    <style name="Theme.B6Studio" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#006B60</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#9EF2E3</item>
+        <item name="colorOnPrimaryContainer">#00201C</item>
+        <item name="colorSecondary">#4B635E</item>
+        <item name="colorSecondaryContainer">#CCE8E0</item>
+        <item name="colorOnSecondaryContainer">#07201B</item>
+        <item name="colorSurface">#F5FAF7</item>
+        <item name="colorOnSurface">#17211E</item>
+        <item name="colorSurfaceVariant">#DAE5DF</item>
+        <item name="colorOnSurfaceVariant">#3F4944</item>
+        <item name="android:colorBackground">#F5FAF7</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>
