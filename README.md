@@ -25,6 +25,12 @@
 
 需要 JDK 17、Android SDK 平台 37 和 Build Tools 37.0.0。Gradle Wrapper 已包含。
 
+SDK Manager 中的平台包名为 `platforms;android-37.0`：
+
+```sh
+sdkmanager "platforms;android-37.0" "build-tools;37.0.0"
+```
+
 ```sh
 # 设置 JAVA_HOME、PATH、ANDROID_HOME，或创建 local.properties 指定 sdk.dir。
 ./gradlew :app:assembleDebug :app:lintDebug

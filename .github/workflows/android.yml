@@ -18,6 +18,6 @@ jobs:
       - uses: android-actions/setup-android@v3
         with:
           packages: platform-tools
-      - run: sdkmanager "platforms;android-37" "build-tools;37.0.0"
+      - run: sdkmanager "platforms;android-37.0" "build-tools;37.0.0"
       - run: ./gradlew :app:assembleDebug :app:lintDebug
       - run: ./tests/run.sh
